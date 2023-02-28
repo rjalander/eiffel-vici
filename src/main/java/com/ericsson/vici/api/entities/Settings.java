@@ -46,6 +46,7 @@ public class Settings {
 
     private static final List<EiffelEventRepository> STANDARD_EIFFEL_REPOSITORIES = Arrays.asList(
             new EiffelEventRepository("Local static dummy file", "localFile[reference-data-set]"),
+            new EiffelEventRepository("Local CDEvents dummy file", "localFile[cdevents-data-set]"),
             new EiffelEventRepository("EER static dummy file", "http://127.0.0.1:8081/reference-data-set"),
             new EiffelEventRepository("EER [live] dummy event stream", "http://127.0.0.1:8081/live[reference-data-set]"),
             new EiffelEventRepository("Docker EER static dummy file", "http://dummy-er:8081/reference-data-set"),
